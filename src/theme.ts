@@ -19,6 +19,7 @@ import { helperTextTheme } from './components/HelperText/theme';
 import { kbdTheme } from './components/Kbd/theme';
 import { labelTheme } from './components/Label/theme';
 import { listGroupTheme } from './components/ListGroup/theme';
+import { listTheme } from './components/List/theme';
 import { modalTheme } from './components/Modal/theme';
 import { navbarTheme } from './components/Navbar/theme';
 import { paginationTheme } from './components/Pagination/theme';
@@ -29,8 +30,8 @@ import { ratingAdvancedTheme, ratingTheme } from './components/Rating/theme';
 import { selectTheme } from './components/Select/theme';
 import { sidebarTheme } from './components/Sidebar/theme';
 import { spinnerTheme } from './components/Spinner/theme';
-import { tabTheme } from './components/Tab/theme';
 import { tableTheme } from './components/Table/theme';
+import { tabTheme } from './components/Tabs/theme';
 import { textInputTheme } from './components/TextInput/theme';
 import { textareaTheme } from './components/Textarea/theme';
 import { timelineTheme } from './components/Timeline/theme';
@@ -60,6 +61,7 @@ export const theme: FlowbiteTheme = {
   kbd: kbdTheme,
   label: labelTheme,
   listGroup: listGroupTheme,
+  list: listTheme,
   modal: modalTheme,
   navbar: navbarTheme,
   pagination: paginationTheme,
@@ -74,8 +76,8 @@ export const theme: FlowbiteTheme = {
   toggleSwitch: toggleSwitchTheme,
   sidebar: sidebarTheme,
   spinner: spinnerTheme,
-  tab: tabTheme,
   table: tableTheme,
+  tabs: tabTheme,
   timeline: timelineTheme,
   toast: toastTheme,
   tooltip: tooltipTheme,

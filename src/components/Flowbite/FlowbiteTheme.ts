@@ -19,6 +19,7 @@ import type { FlowbiteHelperTextTheme } from '../HelperText';
 import type { FlowbiteKbdTheme } from '../Kbd';
 import type { FlowbiteLabelTheme } from '../Label';
 import type { FlowbiteListGroupTheme } from '../ListGroup';
+import type { FlowbiteListTheme } from '../List';
 import type { FlowbiteModalTheme } from '../Modal';
 import type { FlowbiteNavbarTheme } from '../Navbar';
 import type { FlowbitePaginationTheme } from '../Pagination';
@@ -29,8 +30,8 @@ import type { FlowbiteRatingAdvancedTheme, FlowbiteRatingTheme } from '../Rating
 import type { FlowbiteSelectTheme } from '../Select';
 import type { FlowbiteSidebarTheme } from '../Sidebar';
 import type { FlowbiteSpinnerTheme } from '../Spinner';
-import type { FlowbiteTabTheme } from '../Tab';
 import type { FlowbiteTableTheme } from '../Table';
+import type { FlowbiteTabsTheme } from '../Tabs';
 import type { FlowbiteTextInputTheme } from '../TextInput';
 import type { FlowbiteTextareaTheme } from '../Textarea';
 import type { FlowbiteTimelineTheme } from '../Timeline';
@@ -56,6 +57,7 @@ export interface FlowbiteTheme {
   footer: FlowbiteFooterTheme;
   kbd: FlowbiteKbdTheme;
   listGroup: FlowbiteListGroupTheme;
+  list: FlowbiteListTheme;
   modal: FlowbiteModalTheme;
   navbar: FlowbiteNavbarTheme;
   rating: FlowbiteRatingTheme;
@@ -64,7 +66,7 @@ export interface FlowbiteTheme {
   sidebar: FlowbiteSidebarTheme;
   progress: FlowbiteProgressTheme;
   spinner: FlowbiteSpinnerTheme;
-  tab: FlowbiteTabTheme;
+  tabs: FlowbiteTabsTheme;
   toast: FlowbiteToastTheme;
   tooltip: FlowbiteTooltipTheme;
   dropdown: FlowbiteDropdownTheme;
